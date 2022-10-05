@@ -19,7 +19,7 @@ body{
     position: relative;
     text-decoration: none;
     color: #fef8d6;
-    font-size: min(3vw,3vw);
+    font-size: min(2em,2em);
 }
 #bookmarksbar a:before{
     content: '';
@@ -68,7 +68,7 @@ section img{
 #name{
     position: absolute;
     color: #fef8d6;
-    font-size: min(5vw,5vw);
+    font-size: min(5em,5em);
     z-index: 9;
     transform: translateY(20%);
 }
@@ -78,11 +78,10 @@ section img{
 #arrows{
     position: relative;
     z-index: 11;
-    transform: translateY(350%);
+    transform: translateY(550%);
 }
 #arrowslink{
-    height: 12%;
-    width: auto;
+    height: 8%;
 }
 main div{
     background-color: #4f4732;
