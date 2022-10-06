@@ -3,7 +3,10 @@
   <head>
     <title>MaciejZab.github.io</title>
     <link rel="stylesheet" href="style.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 minimum-scale=1"
+    />
   </head>
   <body>
     <header>
@@ -16,6 +19,7 @@
     <main>
       <section>
         <img src="sun.svg" id="sun" />
+        <img src="sky.svg" id="sky" />
         <img src="mid.svg" id="mid" />
         <h2 id="name">Maciej Zabłocki</h2>
         <img src="front.svg" id="front" />
@@ -118,11 +122,11 @@
         window.addEventListener("scroll", function () {
           let value = window.scrollY;
           sun.style.top = value * 1 + "px";
-          sun.style.marginLeft = value * 1 + "px";
+          sun.style.left = value * 1 + "px";
           mid.style.top = value * 0.5 + "px";
-          name.style.marginLeft = value * 0.7 + "px";
-          name.style.marginTop = value * 0.9 + "px";
-          arrows.style.top = value * 0.4 + "px";
+          name.style.marginLeft = value * 0.6 + "px";
+          name.style.marginTop = value * 2.4 + "px";
+          arrows.style.top = value * 1 + "px";
         });
       </script>
     </main>
