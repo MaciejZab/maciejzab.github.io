@@ -3,6 +3,12 @@
   <head>
     <title>MaciejZab.github.io</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap"
+      rel="stylesheet"
+    />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0 minimum-scale=1"
@@ -11,7 +17,7 @@
   <body>
     <header>
       <ul id="bookmarksbar">
-        <li><a href="#" id="about Me">AboutMe</a></li>
+        <li><a href="#" id="about Me">About Me</a></li>
         <li><a href="#" id="projects">Projects</a></li>
         <li><a href="#" id="contact">Contact</a></li>
       </ul>
@@ -21,10 +27,15 @@
         <img src="sun.svg" id="sun" />
         <img src="sky.svg" id="sky" />
         <img src="mid.svg" id="mid" />
-        <h2 id="name">Maciej Zabłocki</h2>
+        <p id="name">Maciej Zabłocki</p>
         <img src="front.svg" id="front" />
-        <a href="#text"><img src="arrows.svg" id="arrows" /></a>
+        <a href="#text"><img src="drawnarrow.svg" id="arrow" /></a>
       </section>
+      <div>
+        <a onclick="topFunction()"
+          ><img src="drawnarrowtoppage.svg" id="arrowtoppage"
+        /></a>
+      </div>
       <div class="text" id="text">
         <h3>Lorem ipsum</h3>
         <p>
@@ -98,7 +109,7 @@
         let sun = document.getElementById("sun");
         let mid = document.getElementById("mid");
         let name = document.getElementById("name");
-        let arrows = document.getElementById("arrows");
+        let arrows = document.getElementById("arrow");
 
         window.addEventListener("scroll", function () {
           let value = window.scrollY;
@@ -109,6 +120,26 @@
           name.style.marginTop = value * 2.4 + "px";
           arrows.style.top = value * 1 + "px";
         });
+      </script>
+      <script>
+        let mybutton = document.getElementById("arrowtoppage");
+        window.onscroll = function () {
+          scrollFunction();
+        };
+        function scrollFunction() {
+          if (
+            document.body.scrollTop > 450 ||
+            document.documentElement.scrollTop > 450
+          ) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
       </script>
     </main>
   </body>
