@@ -23,7 +23,7 @@ body {
   position: relative;
   text-decoration: none;
   color: #fef8d6;
-  font-size: calc(0.5rem + 3vw);
+  font-size: calc(0.5rem + 2.5vw);
 }
 #bookmarksbar a:before {
   content: "";
@@ -71,7 +71,7 @@ section img {
 #name {
   position: absolute;
   color: #fef8d6;
-  font-size: calc(1rem + 5.5vw);
+  font-size: calc(1rem + 5vw);
   z-index: 9;
   white-space: nowrap;
   transform: translateY(20%);
