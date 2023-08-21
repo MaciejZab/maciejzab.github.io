@@ -1,0 +1,62 @@
+[
+  {
+    "name": "inspiration1",
+    "files": ["1.jpg", "2.jpg", "3.jpg"]
+  },
+  {
+    "name": "inspiration2",
+    "files": ["1.jpg", "2.jpg", "3.jpg"]
+  },
+  {
+    "name": "inspiration3",
+    "files": ["1.jpg", "2.jpg"]
+  },
+  {
+    "name": "inspiration4",
+    "files": ["1.jpg", "2.jpg", "3.jpg"]
+  },
+  {
+    "name": "inspiration5",
+    "files": ["1.jpg", "2.jpg", "3.jpg"]
+  },
+  {
+    "name": "inspiration6",
+    "files": ["1.jpg", "2.jpg", "3.jpg"]
+  },
+  {
+    "name": "inspiration7",
+    "files": ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg"]
+  },
+  {
+    "name": "inspiration8",
+    "files": ["1.jpg", "2.jpg", "3.jpg", "4.jpg"]
+  },
+  {
+    "name": "inspiration9",
+    "files": ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg"]
+  },
+  {
+    "name": "inspiration10",
+    "files": ["1.jpg", "2.jpg", "3.jpg", "4.jpg"]
+  },
+  {
+    "name": "inspiration11",
+    "files": ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg"]
+  },
+  {
+    "name": "inspiration12",
+    "files": ["1.jpg", "2.jpg", "3.jpg", "4.jpg"]
+  },
+  {
+    "name": "inspiration13",
+    "files": ["1.jpg", "2.jpg", "3.jpg", "4.jpg"]
+  },
+  {
+    "name": "inspiration14",
+    "files": ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg"]
+  },
+  {
+    "name": "inspiration15",
+    "files": ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg"]
+  }
+]
