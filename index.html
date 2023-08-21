@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>giard design</title>
+  </head>
+  <body>
+    <nav class="col-white-bg d-flex align-items-center"></nav>
+
+    <section id="intro" class="container-fluid col-brown-bg d-flex flex-column flex-lg-row p-0">
+      <div id="intro-content" class="h-100 w-100 w-lg-50 p-5"></div>
+      <div id="intro-carousel" class="h-100 w-100 w-lg-50"></div>
+    </section>
+
+    <section id="offer" class="container-fluid col-grey-bg p-0 pt-5">
+      <div id="offer-content" class="d-flex flex-column ms-sm-5 mt-4 ps-5"></div>
+      <div
+        id="offer-cards"
+        class="d-flex flex-wrap justify-content-center mt-5 mx-5 pb-5 pb-sm-0 gap-5"
+        style="padding-bottom: 160px !important"
+      ></div>
+    </section>
+
+    <section id="about" class="container-fluid col-green-bg d-flex flex-column flex-lg-row p-0">
+      <div id="about-carousel" class="h-100 w-100 w-lg-50"></div>
+
+      <div id="about-content" class="h-100 w-100 w-lg-50 p-5"></div>
+    </section>
+
+    <section id="realizations" class="container-fluid col-brown-bg p-0 pt-5">
+      <div class="d-flex flex-column ms-sm-5 mt-4 ps-5 pb-5">
+        <span class="fam-int-reg fs-12 col-black">Realizacje</span>
+        <span class="fam-mon-med fs-48-sm me-5 col-black"
+          >Nasze <span class="fam-int-med-ita">projekty</span></span
+        >
+      </div>
+
+      <div id="grid" class="grid-masonry">
+        <div class="grid-masonry-sizer"></div>
+
+        <div
+          id="fade"
+          class="fading-layer position-absolute d-flex justify-content-center align-items-end"
+        ></div>
+        <div id="gallery" class="gallery-layer" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <section
+      id="contact"
+      class="container-fluid d-flex align-items-center col-grey-bg p-0 py-5"
+    ></section>
+
+    <footer
+      class="container-fluid d-flex flex-column align-items-center col-black-bg col-grey p-0 py-5"
+    ></footer>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
