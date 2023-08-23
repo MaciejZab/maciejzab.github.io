@@ -1,0 +1,101 @@
+<div class="container-fluid d-flex align-items-center justify-content-between">
+  <a class="navbar-brand" href="#">
+    <img src="./src/assets/icons/giarddesign-logo.svg" alt="Logo" width="114.37" height="19" />
+  </a>
+  <div class="d-flex justify-content-end">
+    <div id="nav-menu" class="d-none d-sm-block" aria-hidden="false">
+      <ul class="navbar-nav d-flex flex-row gap-5">
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Oferta
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li>
+              <a class="dropdown-item" href="#offer"> Projekty </a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#offer"> Wizualizacje </a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#realizations"> Realizacje </a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about"> O firmie </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact"> Kontakt </a>
+        </li>
+      </ul>
+    </div>
+    <a
+      class="p-2 d-block d-sm-none"
+      href="#"
+      id="hamburger"
+      role="button"
+      data-bs-toggle="dropdown"
+      aria-expanded="false"
+      aria-hidden="false"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        height="24px"
+        width="24px"
+        stroke="#111111"
+        class="w-6 h-6"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M6.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM12.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM18.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+        />
+      </svg>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="hamburger">
+      <li>
+        <a class="dropdown-item" href="#offer"> Projekty </a>
+      </li>
+      <li>
+        <a class="dropdown-item" href="#offer"> Wizualizacje </a>
+      </li>
+      <li>
+        <a class="dropdown-item" href="#offer"> Realizacje </a>
+      </li>
+      <li>
+        <hr class="dropdown-divider" />
+      </li>
+      <li>
+        <a class="dropdown-item" href="#about"> O firmie </a>
+      </li>
+      <li>
+        <a class="dropdown-item" href="#contact"> Kontakt </a>
+      </li>
+    </ul>
+
+    <form
+      class="position-relative d-flex align-items-center ms-3 ms-sm-5"
+      action="/search"
+      method="get"
+      aria-expanded="false"
+    >
+      <input type="text" class="search-click" name="" placeholder="search here..." />
+      <img
+        src="./src/assets/icons/loop.svg"
+        alt=""
+        class="position-absolute start-0 pe-none"
+        style="margin-left: 8px"
+      />
+    </form>
+  </div>
+</div>
